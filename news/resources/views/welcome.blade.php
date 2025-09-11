@@ -7,6 +7,6 @@
 	<title>Document</title>
 </head>
 <body>
-
+<p class="text-3xl">123</p>
 </body>
 </html>
