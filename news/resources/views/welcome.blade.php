@@ -9,16 +9,19 @@
 </head>
 <body>
 
-	<div class="h-24">
+	<div class="flex items-center h-24 place-content-center">
+
+
+	LOGO
 
 			</div>
 
 
 <header class="bg-neutral-950">
 
-	<nav aria-label="Global" class="flex items-center justify-between p-2 mx-auto max-w-7xl lg:px-8 place-self-center">
+	<nav aria-label="Global" class="flex items-center justify-between p-2 mx-auto max-w-7xl md:px-4 place-self-center">
 
-	  <div class="flex lg:hidden">
+	  <div class="flex md:hidden">
 		<button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-neutral-100">
 		  <span class="sr-only">Open main menu</span>
 		  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
@@ -26,24 +29,24 @@
 		  </svg>
 		</button>
 	  </div>
-	  <el-popover-group class="hidden lg:flex lg:gap-x-12">
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Общество</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Экономика</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Культура</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Наши люди</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Происшествия</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">ЖКХ</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Производство</a>
-		<a href="#" class="font-semibold text-neutral-200 text-sm/6">Спорт</a>
+	  <el-popover-group class="hidden md:flex lg:gap-x-12 md:gap-x-6">
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Общество</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Экономика</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Культура</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Наши люди</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Происшествия</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">ЖКХ</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Производство</a>
+		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Спорт</a>
 	  </el-popover-group>
 
 	</nav>
 	<el-dialog>
 	  <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
+
 		<div tabindex="0" class="fixed inset-0 focus:outline-none">
 		  <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full p-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-neutral-900/10">
 			<div class="flex items-center justify-between">
-
 			  <button type="button" command="close" commandfor="mobile-menu" class="-m-2.5 rounded-md p-2.5 text-neutral-700">
 				<span class="sr-only">Close menu</span>
 				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
