@@ -21,15 +21,15 @@
 
 	<nav aria-label="Global" class="flex items-center justify-between p-2 mx-auto max-w-7xl md:px-4 place-self-center">
 
-	  <div class="flex sm:hidden">
+	  <div class="flex md:hidden">
 		<button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-neutral-100">
 		  <span class="sr-only">Open main menu</span>
 		  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
 			<path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
 		  </svg>
 		</button>
-	</div>
-	  <el-popover-group class=" md:flex lg:gap-x-12 md:gap-x-6">
+	  </div>
+	  <el-popover-group class="hidden md:flex lg:gap-x-12 md:gap-x-6">
 		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Общество</a>
 		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Экономика</a>
 		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Культура</a>
@@ -41,7 +41,6 @@
 	  </el-popover-group>
 
 	</nav>
-
 	<el-dialog>
 	  <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
 
@@ -74,7 +73,6 @@
 		</div>
 	  </dialog>
 	</el-dialog>
-
 </header>
 
 
