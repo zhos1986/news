@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<div class="flex items-center h-24 place-content-center">
+	<div class="items-center hidden h-24 md:flex place-content-center">
 
 
 	LOGO
@@ -19,16 +19,23 @@
 
 <header class="bg-neutral-950">
 
-	<nav aria-label="Global" class="flex items-center justify-between p-2 mx-auto max-w-7xl md:px-4 place-self-center">
+	<nav aria-label="Global" class="flex justify-between p-2 mx-auto md:items-center max-w-7xl md:px-4 md:place-self-center">
 
-	  <div class="flex md:hidden">
-		<button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-neutral-100">
+
+
+		<div class="text-white md:hidden">
+			LOGO
+		</div>
+
+		<button type="button" command="show-modal" commandfor="mobile-menu" class=" md:hidden -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-neutral-100">
 		  <span class="sr-only">Open main menu</span>
 		  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
 			<path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
 		  </svg>
 		</button>
+
 	  </div>
+
 	  <el-popover-group class="hidden md:flex lg:gap-x-12 md:gap-x-6">
 		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Общество</a>
 		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Экономика</a>
@@ -74,6 +81,12 @@
 	  </dialog>
 	</el-dialog>
 </header>
+
+
+<div class="p-2 mx-auto max-w-7xl md:px-4 bg-neutral-400">
+1
+</div>
+
 
 
 </body>
