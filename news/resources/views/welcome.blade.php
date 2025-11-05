@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 	@vite('resources/css/app.css')
 	<title>Document</title>
 </head>
@@ -36,14 +41,14 @@
 	  </div>
 
 	  <el-popover-group class="hidden md:flex lg:gap-x-12 md:gap-x-6">
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Общество</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Экономика</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Культура</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Наши люди</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Происшествия</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">ЖКХ</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Производство</a>
-		<a href="#" class="font-semibold text-neutral-200 hover:text-neutral-300 text-sm/6">Спорт</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Общество</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Экономика</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Культура</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Наши люди</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Происшествия</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">ЖКХ</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Производство</a>
+		<a href="#" class="font-medium font-[Fira_Sans] tracking-wide text-neutral-200 hover:text-neutral-300 text-sm/6">Спорт</a>
 	  </el-popover-group>
 
 	</nav>
@@ -82,11 +87,24 @@
 </header>
 
 
-<div class="p-2 mx-auto max-w-7xl md:px-4 bg-neutral-400">
+<main class="flex gap-8 px-2 mx-auto mt-10 max-w-7xl md:px-4">
 
+<section class="flex-auto bg-neutral-400">
+1
+</section>
 
+<section class="flex-none w-60 bg-neutral-100">
 
+<div>
+
+	<h7 class=" uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">главные новости</h7>
+
+<hr class="h-px my-4 bg-gray-600">
 </div>
+
+</section>
+
+</main>
 
 
 
