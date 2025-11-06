@@ -87,25 +87,114 @@
 </header>
 
 
-<main class="flex gap-8 px-2 mx-auto mt-10 max-w-7xl md:px-4">
+<main class="grid grid-cols-2 gap-8 px-2 mx-auto mt-10 max-w-7xl md:px-4">
+{{--
+<section class="bg-neutral-100">
+	<div>
 
-<section class="flex-auto bg-neutral-400">
-1
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">главные новости</h7>
+
+	<hr class="h-px my-4 bg-gray-600">
+	</div>
 </section>
 
-<section class="flex-none w-60 bg-neutral-100">
+<section class="w-60 bg-neutral-100">
 
 <div>
 
-	<h7 class=" uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">главные новости</h7>
+	<h7 class=" uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">последние новости</h7>
 
 <hr class="h-px my-4 bg-gray-600">
 </div>
 
-</section>
+</section> --}}
+
+
 
 </main>
 
+<div class="grid grid-cols-1 gap-8 md:grid-cols-[1fr_1fr_240px] md:grid-rows-7 px-2 mx-auto mt-10 max-w-7xl md:px-4">
+	<!-- 1 - на мобильных: первая строка, на десктопе: grid-row: 1 / 2; grid-column: 1 / 3; -->
+	<div class="bg-blue-200 md:row-start-1 md:row-end-2 md:col-start-1 md:col-end-3">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">главные новости</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+		Элемент 1
+	</div>
+
+	<!-- 2 - на мобильных: вторая строка, на десктопе: grid-row: 1 / 3; grid-column: 3 / 4; -->
+	<div class="bg-green-200 md:row-start-1 md:row-end-3 md:col-start-3 md:col-end-4 md:w-60">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">главные новости</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент 2
+	</div>
+
+	<!-- 3 - скрыт на мобильных, виден на десктопе: grid-row: 3 / 4; grid-column: 3 / 4; -->
+	<div class="hidden bg-yellow-200 md:block md:row-start-3 md:row-end-4 md:col-start-3 md:col-end-4 md:w-60">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">новости партнёров</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент 3
+	</div>
+
+
+	<!-- 3 - скрыт на мобильных, виден на десктопе: grid-row: 3 / 4; grid-column: 3 / 4; -->
+	<div class="hidden bg-yellow-200 md:block md:row-start-4 md:row-end-5 md:col-start-3 md:col-end-4 md:w-60">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">голосование</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент !!!
+	</div>
+
+	<!-- 4 - на мобильных: третья строка, на десктопе: grid-row: 2 / 3; grid-column: 1 / 3; -->
+	<div class="bg-red-200 md:row-start-2 md:row-end-3 md:col-start-1 md:col-end-3">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">новости культуры</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент 4
+	</div>
+
+	<!-- 5 - на мобильных: четвертая строка, на десктопе: grid-row: 3 / 4; grid-column: 1 / 3; -->
+	<div class="bg-purple-200 md:row-start-3 md:row-end-4 md:col-start-1 md:col-end-3">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">новости спорта</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент 5
+	</div>
+
+	<!-- 6 - на мобильных: пятая строка, на десктопе: grid-row: 4 / 5; grid-column: 1 / 3; -->
+	<div class="bg-pink-200 md:row-start-4 md:row-end-5 md:col-start-1 md:col-end-3">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">от первого лица</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент 6
+	</div>
+
+	<!-- 7 - на мобильных: шестая строка, на десктопе: grid-row: 5 / 6; grid-column: 1 / 3; -->
+	<div class="bg-indigo-200 md:row-start-5 md:row-end-6 md:col-start-1 md:col-end-3">
+
+		<h7 class="uppercase font-medium font-[Fira_Sans] tracking-widest text-neutral-600 text-sm">интервью</h7>
+
+		<hr class="h-px my-4 bg-gray-600">
+
+	  Элемент 7
+	</div>
+  </div>
 
 
 </body>
