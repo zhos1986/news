@@ -88,179 +88,221 @@
 
 
 
-<main class="grid grid-cols-1 gap-8 md:grid-cols-[1fr_1fr_240px] md:grid-rows-7 px-2 mx-auto mt-10 max-w-7xl md:px-4">
+
+
+<main class="grid grid-cols-1 gap-8 md:grid-cols-[1fr_1fr_240px] auto-rows-min items-start px-2 mx-auto mt-10 max-w-7xl md:px-4">
 	<!-- 1 - на мобильных: первая строка, на десктопе: grid-row: 1 / 2; grid-column: 1 / 3; -->
 	<div class="md:row-start-1 md:row-end-2 md:col-start-1 md:col-end-3">
-
 		<h7 class="category">главные новости</h7>
-
-		<hr class="my-4 border-t-2 border-gray-400">
-
+		<hr class="mt-2 mb-4 border-gray-400 border-t-1">
 		Элемент 1
 	</div>
 
-	<!-- 2 - на мобильных: вторая строка, на десктопе: grid-row: 1 / 3; grid-column: 3 / 4; -->
-	<div class="flex flex-col md:row-start-1 md:row-span-full md:col-start-3 md:col-end-4 md:w-60">
-
+	<!-- Правая колонка - единый grid-элемент -->
+	<div class="flex flex-col gap-8 md:row-start-1 md:row-end-6 md:col-start-3 md:col-end-4 md:w-60">
+		<!-- Блок последних новостей -->
 		<div>
+			<h7 class="category">последние новости</h7>
+			<hr class="mt-2 mb-4 border-gray-400 border-t-1">
 
-		<h7 class="category">последние новости</h7>
+			<div>
+				<time class="block mt-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T14:54">2025-11-07 8:21</time>
+				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
+					Развитие профессионального образования обсудили в уральской столице
+				</h3>
+				<hr class="mt-2 border-gray-200 border-t-1">
+			</div>
 
-		<hr class="my-4 border-t-2 border-gray-400">
+			<div>
+				<time class="block mt-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T14:54">2025-11-07 8:21</time>
+				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
+					Развитие профессионального образования обсудили в уральской столице
+				</h3>
+				<hr class="mt-2 border-gray-200 border-t-1">
+			</div>
+
+			<div>
+				<time class="block mt-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T14:54">2025-11-07 8:21</time>
+				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
+					Развитие профессионального образования обсудили в уральской столице
+				</h3>
+				<hr class="mt-2 border-gray-200 border-t-1">
+			</div>
+		</div>
+
+		<!-- Блок новостей партнеров (только для десктопа) -->
+		<div class="hidden md:block">
+			<h7 class="category">новости партнёров</h7>
+			<hr class="mt-2 mb-4 border-gray-400 border-t-1">
+			Элемент 3
+		</div>
+
+		<!-- Блок голосования (только для десктопа) -->
+		<div class="hidden md:block">
+			<h7 class="category">голосование</h7>
+			<hr class="mt-2 mb-4 border-gray-400 border-t-1">
+			Элемент !!!
+		</div>
 	</div>
-
-	  <div class="">
-
-		<time class="block mt-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T14:54">2025-11-07 8:21</time>
-
-		<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-			Развитие профессионального образования обсудили в уральской столице
-		</h3>
-
-		<hr class="mt-2 border-gray-200 border-t-1">
-
-	  </div>
-
-	  <div class="">
-
-		<time class="block mt-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T14:54">2025-11-07 8:21</time>
-
-		<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-			Развитие профессионального образования обсудили в уральской столице
-		</h3>
-
-		<hr class="mt-2 border-gray-200 border-t-1">
-
-	  </div>
-
-	  <div class="">
-
-		<time class="block mt-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T14:54">2025-11-07 8:21</time>
-
-		<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-			Развитие профессионального образования обсудили в уральской столице
-		</h3>
-
-		<hr class="mt-2 border-gray-200 border-t-1">
-
-	  </div>
-
-
-
-	<!-- 3 - скрыт на мобильных, виден на десктопе: grid-row: 3 / 4; grid-column: 3 / 4; -->
-	<div class="hidden mt-8 md:block">
-
-		<h7 class="category">новости партнёров</h7>
-
-		<hr class="my-4 border-t-2 border-gray-400">
-
-	  Элемент 3
-	</div>
-
-
-	<!-- 3 - скрыт на мобильных, виден на десктопе: grid-row: 3 / 4; grid-column: 3 / 4; -->
-	<div class="hidden mt-8 md:block">
-
-		<h7 class="category">голосование</h7>
-
-		<hr class="my-4 border-t-2 border-gray-400">
-
-	  Элемент !!!
-	</div>
-
-
-
-
-	</div>
-
-
-
 
 	<!-- 4 - на мобильных: третья строка, на десктопе: grid-row: 2 / 3; grid-column: 1 / 3; -->
 	<div class="md:row-start-2 md:row-end-3 md:col-start-1 md:col-end-3">
-
 		<h7 class="category">новости культуры</h7>
+		<hr class="mt-2 mb-4 border-gray-400 border-t-1">
 
-		<hr class="my-4 border-t-2 border-gray-400">
+		<div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
+			<div>
+
+				<time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T16:45">
+					<span class="text-neutral-900">16:45</span> – <span class="text-neutral-400">07.11.2025</span>
+				  </time>
+
+				<img src="..\img\cult\cult_1.jpg" alt="">
+				<h3 class="font-medium text-base font-[Fira_Sans] text-neutral-90 mt-4 mb-2">
+					В Екатеринбурге пройдет фестиваль-панорама театров Свердловской области «Счастливое место»
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Зрители увидят самые значимые театральные работы последних лет.
+				</p>
+			</div>
+			<div>
+				<time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs" datetime="2025-11-07T16:45">
+					<span class="text-red-600">16:45</span> – <span class="text-neutral-400">07.11.2025</span>
+				  </time>
+				<img src="..\img\cult\cult_2.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Лучших рукодельниц города назвали в Нижнем Тагиле
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					В конкурсе участвовали 50 талантливых мастеров.
+				</p>
+			</div>
+			<div>
+				<img src="..\img\cult\cult_3.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					В декабре после ремонта откроется «Дом Черепановых» в Нижнем Тагиле
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Работы по обновлению здания историко-технического музея близятся к завершению.
+				</p>
+			</div>
+			<div>
+				<img src="..\img\cult\cult_4.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Урало-Сибирская тропа приведет туристов в самые красивые места горного края
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Экскурсионный маршрут обустроен в окрестностях Каменска-Уральского.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 5 - на мобильных: четвертая строка, на десктопе: grid-row: 3 / 4; grid-column: 1 / 3; -->
+	<div class="md:row-start-3 md:row-end-4 md:col-start-1 md:col-end-3">
+		<h7 class="category">новости спорта</h7>
+		<hr class="mt-2 mb-4 border-gray-400 border-t-1">
+
+		<div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
+			<div>
+				<img src="..\img\sport\sport_1.jpg" alt="">
+				<h3 class="font-medium text-base font-[Fira_Sans] text-neutral-90 mt-4 mb-2">
+					Фигуристы из 18 регионов России состязались на льду за «Кубок Урала»
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Всероссийские соревнования по синхронному фигурному катанию прошли в Екатеринбурге.
+				</p>
+			</div>
+			<div>
+				<img src="..\img\sport\sport_2.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Свердловская область в восьмой раз признана лучшим мотоспортивным регионом России
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Конкурс ежегодно проводит федерация мотоциклетного спорта РФ.
+				</p>
+			</div>
+			<div>
+				<img src="..\img\sport\sport_3.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Еще два дворовых корта открыли в Екатеринбурге по программе «Спорт в каждый двор»
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Многофункциональные спортплощадки появились в Верх-Исетском и Октябрьском районах.
+				</p>
+			</div>
+			<div>
+				<img src="..\img\sport\sport_4.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Автомобильные гонки пройдут в Берёзовском
+				</h3>
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Гонки приурочены ко Дню Автомобилиста.
+				</p>
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- 6 - на мобильных: пятая строка, на десктопе: grid-row: 4 / 5; grid-column: 1 / 3; -->
+	<div class="md:row-start-4 md:row-end-5 md:col-start-1 md:col-end-3">
+		<h7 class="category">от первого лица</h7>
+		<hr class="mt-2 mb-4 border-gray-400 border-t-1">
+		Элемент 6
+	</div>
+
+	<!-- 7 - на мобильных: шестая строка, на десктопе: grid-row: 5 / 6; grid-column: 1 / 3; -->
+	<div class="md:row-start-5 md:row-end-6 md:col-start-1 md:col-end-3">
+		<h7 class="category">интервью</h7>
+		<hr class="mt-2 mb-4 border-gray-400 border-t-1">
+
 
 
 		<div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
-
 			<div>
-				<img src="..\img\cult_1.jpg" alt="">
-
-				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-					В Екатеринбурге пройдет фестиваль-панорама театров Свердловской области «Счастливое место»
+				<img src="..\img\interview\inter_1.jpg" alt="">
+				<h3 class="font-medium text-base font-[Fira_Sans] text-neutral-90 mt-4 mb-2">
+					Врач-анестезиолог свердловского онкодиспансера — о работе в операционной, когда пациент сладко спит
 				</h3>
-
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					На вопросы отвечает анестезиолог-реаниматолог Юлия Калашникова.
+				</p>
 			</div>
-
 			<div>
-				<img src="..\img\cult_2.jpg" alt="">
-
-				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-					Лучших рукодельниц города назвали в Нижнем Тагиле
+				<img src="..\img\interview\inter_2.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					«Море — отличное лекарство, если подходить к нему с умом»: советы врача для тех, кто планирует ехать на отдых
 				</h3>
-
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Разбираемся с этим с Натальей Головань.
+				</p>
 			</div>
-
 			<div>
-				<img src="..\img\cult_3.jpg" alt="">
-
-				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-					В декабре после ремонта откроется «Дом Черепановых» в Нижнем Тагиле
+				<img src="..\img\interview\inter_3.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Без лечения не обойтись
 				</h3>
-
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					На наши вопросы отвечает психотерапевт Виктор Кислицин.
+				</p>
 			</div>
-
 			<div>
-				<img src="..\img\cult_4.jpg" alt="">
-
-				<h3 class="font-regular font-[Fira_Sans] text-neutral-900 text-base">
-					Урало-Сибирская тропа приведет туристов в самые красивые места горного края
+				<img src="..\img\interview\inter_4.jpg" alt="">
+				<h3 class="text-base font-medium  font-[Fira_Sans] text-neutral-900  mt-4 mb-2">
+					Как позаботиться о будущей пенсии?
 				</h3>
-
+				<p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+					Экспертное интервью с управляющей свердловским Отделением социального фонда России Еленой Альшиц
+				</p>
 			</div>
-
 		</div>
 
 
 
 	</div>
+</main>
 
-
-
-
-	<!-- 5 - на мобильных: четвертая строка, на десктопе: grid-row: 3 / 4; grid-column: 1 / 3; -->
-	<div class="md:row-start-3 md:row-end-4 md:col-start-1 md:col-end-3">
-
-		<h7 class="category">новости спорта</h7>
-
-		<hr class="my-4 border-t-2 border-gray-400">
-
-	  Элемент 5
-	</div>
-
-	<!-- 6 - на мобильных: пятая строка, на десктопе: grid-row: 4 / 5; grid-column: 1 / 3; -->
-	<div class="md:row-start-4 md:row-end-5 md:col-start-1 md:col-end-3">
-
-		<h7 class="category">от первого лица</h7>
-
-		<hr class="my-4 border-t-2 border-gray-400">
-
-	  Элемент 6
-	</div>
-
-	<!-- 7 - на мобильных: шестая строка, на десктопе: grid-row: 5 / 6; grid-column: 1 / 3; -->
-	<div class="md:row-start-5 md:row-end-6 md:col-start-1 md:col-end-3">
-
-		<h7 class="category">интервью</h7>
-
-		<hr class="my-4 border-t-2 border-gray-400">
-
-	  Элемент 7
-	</div>
-  </main>
 
 
 </body>
