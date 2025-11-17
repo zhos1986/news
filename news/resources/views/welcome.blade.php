@@ -133,7 +133,137 @@
         <div class="md:row-start-1 md:row-end-2 md:col-start-1 md:col-end-3">
             <h7 class="category">главные новости</h7>
             <hr class="mt-2 mb-4 border-gray-400 border-t-1">
-            Элемент 1
+
+            <div class="grid grid-cols-4 gap-4 auto-rows-auto">
+                <div class="col-span-3">
+
+                    <a class="group" href="#">
+                        <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
+                            <time
+                                class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
+                                datetime="2025-11-07T16:45">
+                                <span class="text-neutral-900">16:45</span> – <span
+                                    class="text-neutral-400">07.11.2025</span>
+                            </time>
+
+                            <img class="object-cover aspect-5/2" src="..\img\top_news\top_1.jpg" alt="">
+
+                            <h3
+                                class="font-medium text-base font-[Fira_Sans] text-neutral-900 mt-4 mb-2 group-hover:text-red-600 transition-colors duration-200">
+                                Косплей в старину: «Крестьянское подворье» хранит историю о жизни народов Урала
+                            </h3>
+                            <p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+                                Представление о жизни предков мы складываем по предметам их быта. Утварь, актуальная в
+                                домашнем обиходе много лет назад, нам кажется пережитком прошлого. Одни спешат от старья
+                                избавиться, другие находят в нем сакральный смысл. Они не только хотят сохранить
+                                раритет, но и готовы с его помощью отправить современников в историческое приключение.
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+
+
+
+                <div class="col-start-4">
+                    <a class="group" href="#">
+                        <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
+                            <time
+                                class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
+                                datetime="2025-11-07T16:45">
+                                <span class="text-neutral-900">16:45</span> – <span
+                                    class="text-neutral-400">07.11.2025</span>
+                            </time>
+                            <img src="..\img\top_news\top_2.jpg" alt="">
+                            <h3
+                                class="font-medium text-base font-[Fira_Sans] text-neutral-900 mt-4 mb-2 group-hover:text-red-600 transition-colors duration-200">
+                                Со 2 декабря пени за неуплату налогов будут начислять каждый просроченный день
+                            </h3>
+                            <p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+                                Об этом предупредила Федеральная налоговая служба.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="row-start-2"><a class="group" href="#">
+                        <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
+                            <time
+                                class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
+                                datetime="2025-11-07T16:45">
+                                <span class="text-neutral-900">16:45</span> – <span
+                                    class="text-neutral-400">07.11.2025</span>
+                            </time>
+                            <img src="..\img\top_news\top_3.jpg" alt="">
+                            <h3
+                                class="font-medium text-base font-[Fira_Sans] text-neutral-900 mt-4 mb-2 group-hover:text-red-600 transition-colors duration-200">
+                                Пособия молодым мамам-студенткам выплатят по новым правилам
+                            </h3>
+                            <p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+                                Срок назначения выплат существенно сокращен.
+                            </p>
+                        </div>
+                    </a></div>
+                <div class="row-start-2"><a class="group" href="#">
+                        <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
+                            <time
+                                class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
+                                datetime="2025-11-07T16:45">
+                                <span class="text-neutral-900">16:45</span> – <span
+                                    class="text-neutral-400">07.11.2025</span>
+                            </time>
+                            <img src="..\img\top_news\top_4.jpg" alt="">
+                            <h3
+                                class="font-medium text-base font-[Fira_Sans] text-neutral-900 mt-4 mb-2 group-hover:text-red-600 transition-colors duration-200">
+                                Участница Великой Отечественной войны из Екатеринбурга отметила 100-летний юбилей
+                            </h3>
+                            <p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+                                Когда пришли фашисты, Фане Ихильевне Гуревич было 15 лет.
+                            </p>
+                        </div>
+                    </a></div>
+                <div class="row-start-2"><a class="group" href="#">
+                        <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
+                            <time
+                                class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
+                                datetime="2025-11-07T16:45">
+                                <span class="text-neutral-900">16:45</span> – <span
+                                    class="text-neutral-400">07.11.2025</span>
+                            </time>
+                            <img src="..\img\top_news\top_5.jpg" alt="">
+                            <h3
+                                class="font-medium text-base font-[Fira_Sans] text-neutral-900 mt-4 mb-2 group-hover:text-red-600 transition-colors duration-200">
+                                Cвердловские подростки гуляют на неокрепшем льду, а за окном +3
+                            </h3>
+                            <p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+                                Подростки на Среднем Урале с риском для жизни выходят на тонкий лед, который не до конца
+                                установился на большинстве водоемов.
+                            </p>
+                        </div>
+                    </a></div>
+                <div class="row-start-2"><a class="group" href="#">
+                        <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
+                            <time
+                                class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
+                                datetime="2025-11-07T16:45">
+                                <span class="text-neutral-900">16:45</span> – <span
+                                    class="text-neutral-400">07.11.2025</span>
+                            </time>
+                            <img src="..\img\top_news\top_6.jpg" alt="">
+                            <h3
+                                class="font-medium text-base font-[Fira_Sans] text-neutral-900 mt-4 mb-2 group-hover:text-red-600 transition-colors duration-200">
+                                Поезд Деда Мороза сделает остановку в Екатеринбурге
+                            </h3>
+                            <p class="text-base font-light font-[Fira_Sans] text-neutral-900">
+                                Сказочный состав уже сформирован и готовится отправиться в рейс.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+
+
         </div>
 
         <!-- Правая колонка - единый grid-элемент -->
@@ -262,7 +392,7 @@
 
             <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -280,7 +410,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-red-600">16:45</span> – <span class="text-neutral-400">07.11.2025</span>
@@ -297,7 +427,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -314,7 +444,7 @@
                     </div>
                 </a>
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -341,7 +471,7 @@
             <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -359,7 +489,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -377,7 +507,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -395,7 +525,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -434,7 +564,7 @@
             <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -453,7 +583,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -472,7 +602,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
@@ -490,7 +620,7 @@
                 </a>
 
                 <a class="group" href="#">
-                    <div>
+                    <div class="duration-200 ease-out grayscale-100 hover:grayscale-0">
                         <time class="block mb-4 font-regular font-[Fira_Sans] tracking-widest text-neutral-400 text-xs"
                             datetime="2025-11-07T16:45">
                             <span class="text-neutral-900">16:45</span> – <span
